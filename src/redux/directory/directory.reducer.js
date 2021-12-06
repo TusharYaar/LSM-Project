@@ -4,19 +4,19 @@ const INITIAL_STATE = {
       title: "Books",
       imageUrl: "http://i.ibb.co/cvpntL1/hats.png",
       id: 1,
-      linkUrl: "shop/hats",
+      linkUrl: "shop/books",
     },
     {
       title: "Instruments",
       imageUrl: "http://i.ibb.co/px2tCc3/jackets.png",
       id: 2,
-      linkUrl: "shop/jackets",
+      linkUrl: "shop/instruments",
     },
     {
       title: "Labcoats",
       imageUrl: "http://i.ibb.co/0jqHpnp/sneekers.png",
       id: 3,
-      linkUrl: "shop/sneakers",
+      linkUrl: "shop/labcoats",
     },
   ],
 };
