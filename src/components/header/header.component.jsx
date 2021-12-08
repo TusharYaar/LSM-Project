@@ -11,7 +11,7 @@ import { createStructuredSelector } from 'reselect';
 const Header = ({currentUser, hidden}) => (
     <div className="header">
         <Link  className="logo-container" to="/">
-        <img className="logo" src={logo} />
+        <img className="logo" src={logo} alt="Quickdeal" />
         </Link>
 
         <div className="options">
