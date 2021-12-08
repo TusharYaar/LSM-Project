@@ -13,11 +13,11 @@ const StripeCheckoutButton =({price}) => {
         return (
             <StripeCheckout
             label='PAY NOW'
-            name='CRWN Clothing Ltd'
+            name='Quick Deal Inc'
             billingAddress
             shipAddress
-            image='../../assets/crown.svg'
-            description ={`Your total is $${price}`}
+            image='../../assets/quickDeal.jpeg'
+            description ={`Your total is Rs.${price}`}
             amount = {priceForStripe}
             panelLabel='Pay Now'
             token={onToken}
